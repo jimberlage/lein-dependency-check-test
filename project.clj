@@ -7,4 +7,4 @@
   :main ^:skip-aot lein-dependency-check-test.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}}
-  :plugins [[com.livingsocial/lein-dependency-check "1.1.4"]])
+  :plugins [[jimberlage/lein-dependency-check "1.1.5-SNAPSHOT"]])
